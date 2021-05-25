@@ -3,6 +3,8 @@ body{
   background-image: url("https://www.fantasyanime.com/mana/images/sompaper10-1920x1080.jpg");
   background-size: cover;
   opacity: 0.8;
+  height: 100vh;
+  overflow: hidden;
 }
 .app {
   display: grid;
