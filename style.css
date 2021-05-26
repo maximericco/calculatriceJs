@@ -1,7 +1,7 @@
 body{
-  height:100vh;
   background-image: url("https://www.fantasyanime.com/mana/images/sompaper10-1920x1080.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   opacity: 0.8;
   height: 100vh;
   overflow: hidden;
@@ -52,3 +52,10 @@ button:hover {
 #clear {
   grid-area: reset;
 }
+
+
+@media screen and (max-width: 750px){
+  .app{
+    width:300px;
+  }
+} 
